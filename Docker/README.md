@@ -9,3 +9,9 @@ The Dockerfile should perform the following steps:
 
 Feel free to use whichever port you find suitable.
 
+
+HOW TO RUN THE SERVER:
+    1. Inside the directory Dockerfile exists run """ docker build . """
+    2. Inside the directory run " docker build -t docker-isaac ." 
+    3. For running the server run " docker run -d --rm -p 8080:8000 docker-isaac  "
+
